@@ -100,7 +100,8 @@ def boxes():
             if j%9>=6 and j%9<=8:
                 res9.append(item)
     box = [res1, res2, res3, res4, res5, res6, res7, res8, res9]
-    return boxfrom collections import defaultdict
+    return box
+from collections import defaultdict
 def repeats(matrix, original):
     #print(matrix)
     temp = defaultdict(list)
