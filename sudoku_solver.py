@@ -4,7 +4,7 @@ import scipy.sparse as scs # sparse matrix construction
 import scipy.linalg as scl # linear algebra algorithms
 import scipy.optimize as sco # for minimization use
 import matplotlib.pylab as plt # for visualization
-
+from numpy import linalg as LA
 def fixed_constraints(N=9):
     rowC = np.zeros(N)
     rowC[0] =1
