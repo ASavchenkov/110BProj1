@@ -235,8 +235,8 @@ def solver(input_):
         new_x_ori = np.array(convert_matrixtolist(after_del))
         constraint_ = new_x_ori
         iter_+=1
-    
-    return X_re
+    ans =  np.array([np.argmax(d)+1 for d in X_re])
+    return ''.join([str(c) for c in ans]) 
     
 
 
