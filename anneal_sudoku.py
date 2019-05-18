@@ -60,7 +60,7 @@ if __name__ == '__main__':
     sudoku0 = str_to_arr(sudoku0)
 
     stepper = TakeStep(sudoku0)
-    res = basinhopping(whole_loss, sudoku0, niter=600, T=0.5,take_step=stepper,stepsize=0.001)
+    res = basinhopping(whole_loss, sudoku0, niter=200, T=0.5,take_step=stepper,stepsize=0.001)
     h = res.x.astype(int).reshape((9,9))
     print(sudoku0)
     print(h)
