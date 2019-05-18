@@ -1,1 +1,3 @@
-codebases from known projects copied here for viabilty testing before producing our own code.
+Team member:Chad Breece, Zarin Ohiba, Malcom Yang, Aleksandr Savchenkov
+Core files: Linear programming.ipynb, requirements.txt, sudoku_solver.py, project report
+
